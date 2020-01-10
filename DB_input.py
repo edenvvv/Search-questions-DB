@@ -6,6 +6,7 @@ import os
 
 
 def input_message(message):
+    """Receives selection message from user"""
     temp = input(message)
     if temp == '':
         temp = None
@@ -21,6 +22,7 @@ switch = {
 
 
 def input_data():
+    """Responsible for Coordinator interface"""
     sql.create_table()
 
     while True:
@@ -114,4 +116,4 @@ def input_data():
 
 
 # Examples: test1 = Data('C:/Users/Top/Desktop/shmython/GUI/questions/gigi.PNG', 'math', 'Invoice set', '5')
-input_data()
+
