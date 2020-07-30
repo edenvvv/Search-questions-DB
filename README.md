@@ -1,3 +1,6 @@
+# Preview:
+<img src="https://github.com/edenvvv/Search-questions-DB/blob/master/How_does_it_look.png" width="800" height="450" />
+
 ## repositery of questions for search
 ## for the graphic user interface:
 # pip install pillow
